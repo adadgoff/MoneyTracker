@@ -1,0 +1,5 @@
+{
+  "app_info": "Console application \"Personal Financial Wallet\".\nArtemy Dadykov.\nRead more about the project in README.md.",
+  "auth_info": "| Authorization service | Available commands |\n| [1] - login\n| [2] - registration\n| [9] - change language\n| [0] - program termination",
+  "auth_input": "| Input the command: "
+}

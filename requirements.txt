@@ -1,0 +1,7 @@
+# Hash password.
+bcrypt==4.0.1
+passlib==1.7.4
+
+# Console UI.
+rich==13.7.1
+inquirer==3.2.4
