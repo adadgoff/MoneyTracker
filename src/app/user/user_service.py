@@ -1,3 +1,5 @@
+from app.user.user import User
+from app.user.user_repository import UserRepository
 
 
 class UserService:

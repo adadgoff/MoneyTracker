@@ -1,5 +1,81 @@
 {
-  "app_info": "Console application \"Personal Financial Wallet\".\nArtemy Dadykov.\nRead more about the project in README.md.",
-  "auth_info": "| Authorization service | Available commands |\n| [1] - login\n| [2] - registration\n| [9] - change language\n| [0] - program termination",
-  "auth_input": "| Input the command: "
+  "app-info": "Console application \"Money Tracker\" - by Artemy Dadykov.\nRead more about the project in \"README.md\".",
+  "app-menu-back": "Press any key to return to the menu.",
+  "app-terminate": "shut down application",
+  "app-terminate-confirm": "Are you sure you want to terminate application?",
+  "app-terminated": "Application \"Money Tracker\" has terminated.",
+
+  "app-change-language": "Select application language",
+  "app-change-language-english": "English",
+  "app-change-language-russian": "Russian",
+
+  "auth-menu": "\"Money Tracker\" | Logging in to application.",
+  "auth-menu-input": "Select command",
+  "auth-menu-choice-login": "login",
+  "auth-menu-choice-register": "registration",
+  "auth-menu-choice-change-language": "change language",
+
+  "auth-register": "Application registration.",
+  "auth-register-username": "Enter username",
+  "auth-register-password": "Enter password",
+  "auth-register-error": "The username is busy, please select a different one.",
+
+  "auth-login": "Logging in to application.",
+  "auth-login-username": "Enter username",
+  "auth-login-password": "Enter password",
+  "auth-login-error": "Invalid user data.",
+
+  "auth-logout-confirm": "Are you sure you want to log out of your account?",
+
+  "entry-menu": "\"Money Tracker\" | Application.",
+  "entry-menu-input": "Select command",
+  "entry-menu-choice-balance": "my balance",
+  "entry-menu-choice-incomes": "my incomes",
+  "entry-menu-choice-expenses": "my expenses",
+  "entry-menu-choice-create": "create entry",
+  "entry-menu-choice-update": "edit entry",
+  "entry-menu-choice-delete": "delete entries",
+  "entry-menu-choice-logout": "logout",
+  "entry-menu-choice-find-by-category": "search by category",
+  "entry-menu-choice-find-by-date": "search by date",
+  "entry-menu-choice-find-by-amount": "search by amount",
+
+  "entry-balance": "My balance = ",
+  "entry-incomes": "My incomes.",
+  "entry-expenses": "My expenses.",
+
+  "entry-create": "Creating entry.",
+  "entry-update": "Editing entry.",
+  "entries-delete": "Deleting entries.",
+  "entry-delete-confirm": "Are you sure you want to delete selected entries?",
+
+  "entry-find-by-category": "Search by category.",
+  "entry-find-by-date": "Search by date.",
+  "entry-find-by-amount": "Search by amount.",
+  "entries-found": "Searched entries.",
+
+  "entry-created-successfully": "Entry created successfully.",
+  "entry-updated-successfully": "Entry edited successfully.",
+  "entries-deleted-successfully": "Selected entries deleted successfully.",
+
+  "entry-amount-input": "Enter amount",
+  "entry-category-list": "Select category",
+  "entry-description-input": "Enter description",
+  "entry-date-year-input": "Enter year",
+  "entry-date-month-input": "Enter month",
+  "entry-date-day-input": "Enter day",
+  "entry-update-list": "Select entry you want to edit",
+
+  "number-input-error": "Enter positive integer.",
+  "number-input-in-range-error": "Enter a positive integer in the range:",
+
+  "date": "Date",
+  "category": "Category",
+  "amount": "Amount",
+  "description": "Description",
+  "income": "Income",
+  "expense": "Expense",
+  "no-entries": "No entries.",
+  "no-incomes": "No incomes :(",
+  "no-expenses":"No expenses :)"
 }

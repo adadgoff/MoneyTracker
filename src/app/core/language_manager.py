@@ -1,6 +1,8 @@
-from json import load
+import json
+import os
 
 from app.database.config import TRANSLATION_PATH
+
 
 class Languages:
     ru = "ru"
@@ -21,8 +23,8 @@ class LanguageManager:
         self.translations = self.load_language_data()
 
     def load_language_data(self) -> dict:
-        with open(f"{TRANSLATION_PATH}/{self.language}.json", 'r', encoding="utf-8") as f_translation:
-            return load(f_translation)
+        with open(os.path.join(TRANSLATION_PATH, f"{self.language}.json"), 'r', encoding="utf-8") as f_translation:
+            return json.load(f_translation)
 
     def get_translation(self, key: str) -> str:
         return self.translations.get(key, f"Translation not found for key: {key}")

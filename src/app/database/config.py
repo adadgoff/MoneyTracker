@@ -1,9 +1,9 @@
-from os.path import abspath
+import os
 
-TRANSLATION_PATH = abspath("resources/translations")
+TRANSLATION_PATH = os.path.abspath("../resources/translations")
 
-DATABASE_PATH = abspath("resources/databases")
-ENTRY_DATABASE_PATH = DATABASE_PATH + r"\entry.csv"
-USER_DATABASE_PATH: str = DATABASE_PATH + r"\user.csv"
+DATABASE_PATH = os.path.abspath("../resources/databases")
+ENTRY_DATABASE_PATH = os.path.join(DATABASE_PATH, "entry.csv")
+USER_DATABASE_PATH = os.path.join(DATABASE_PATH, "user.csv")
 
 DELIMITER = ','

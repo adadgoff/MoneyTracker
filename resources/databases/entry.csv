@@ -1,1 +1,3 @@
-uuid,amount,category,date,description
+uuid,user_uuid,amount,category,date,description
+502c964d-48e3-4b7c-b878-98c6ec60ea92,ad791922-3741-4f84-8ef4-33df85f14bd8,100000,1,2024-08-05,Зарплата
+502c964d-48e3-4b7c-b878-98c6ec60ea92,ad791922-3741-4f84-8ef4-33df85f14bd8,100,-1,2024-05-09,Шоколад

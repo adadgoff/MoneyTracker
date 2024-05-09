@@ -1,9 +1,81 @@
 {
-  "app_info": "Консольное приложение \"Личный финансовый кошелек\".\nДадыков Артемий.\nПодробную информацию о проекте читайте в README.md.",
-  "auth-info-message": "| Сервис авторизации | Доступные команды",
-  "auth-choice-1": "> вход",
-  "auth-choice-2": "> регистрация",
-  "auth-choice-3": "> сменить язык",
-  "auth-choice-4": "> завершить работу программы",
-  "auth_input": "| Введите команду: "
+  "app-info": "Консольное приложение \"Личный финансовый кошелек\" - автор Дадыков Артемий.\nПодробную информацию о проекте читайте в \"README.md\".",
+  "app-menu-back": "Нажмите любую клавишу, чтобы вернуться в меню.",
+  "app-terminate": "завершить работу приложения",
+  "app-terminate-confirm": "Вы уверены, что хотите завершить работу приложения?",
+  "app-terminated": "Приложение \"Личный финансовый кошелек\" завершило работу.",
+
+  "app-change-language": "Выберите язык приложения",
+  "app-change-language-english": "английский",
+  "app-change-language-russian": "русский",
+
+  "auth-menu": "\"Личный финансовый кошелек\" | Вход в приложение.",
+  "auth-menu-input": "Выберите команду",
+  "auth-menu-choice-login": "вход",
+  "auth-menu-choice-register": "регистрация",
+  "auth-menu-choice-change-language": "сменить язык",
+
+  "auth-register": "Регистрация в приложении.",
+  "auth-register-username": "Введите имя пользователя",
+  "auth-register-password": "Введите пароль",
+  "auth-register-error": "Имя пользователя занято, пожалуйста, выберите другое.",
+
+  "auth-login": "Вход в приложение.",
+  "auth-login-username": "Введите имя пользователя",
+  "auth-login-password": "Введите пароль",
+  "auth-login-error": "Неверные данные пользователя.",
+
+  "auth-logout-confirm": "Вы уверены, что хотите выйти из аккаунта?",
+
+  "entry-menu": "\"Личный финансовый кошелек\" | Приложение.",
+  "entry-menu-input": "Выберите команду",
+  "entry-menu-choice-balance": "мой баланс",
+  "entry-menu-choice-incomes": "мои доходы",
+  "entry-menu-choice-expenses": "мои расходы",
+  "entry-menu-choice-create": "добавить запись",
+  "entry-menu-choice-update": "редактировать запись",
+  "entry-menu-choice-delete": "удалить записи",
+  "entry-menu-choice-logout": "выйти из аккаунта",
+  "entry-menu-choice-find-by-category": "поиск по категории",
+  "entry-menu-choice-find-by-date": "поиск по дате",
+  "entry-menu-choice-find-by-amount": "поиск по сумме",
+
+  "entry-balance": "Мой баланс = ",
+  "entry-incomes": "Мои доходы.",
+  "entry-expenses": "Мои расходы.",
+
+  "entry-create": "Добавление записи.",
+  "entry-update": "Редактирование записи.",
+  "entries-delete": "Удаление записей.",
+  "entry-delete-confirm": "Вы уверены, что хотите удалить выбранные записи?",
+
+  "entry-find-by-category": "Поиск по категории.",
+  "entry-find-by-date": "Поиск по дате.",
+  "entry-find-by-amount": "Поиск по сумме.",
+  "entries-found": "Найденные записи.",
+
+  "entry-created-successfully": "Запись добавлена успешно.",
+  "entry-updated-successfully": "Запись изменена успешно.",
+  "entries-deleted-successfully": "Выбранные записи удалены успешно.",
+
+  "entry-amount-input": "Введите сумму",
+  "entry-category-list": "Выберите категорию",
+  "entry-description-input": "Введите описание",
+  "entry-date-year-input": "Введите год",
+  "entry-date-month-input": "Введите месяц",
+  "entry-date-day-input": "Введите день",
+  "entry-update-list": "Выберите запись, которую хотите изменить",
+
+  "number-input-error": "Введите целое положительное число.",
+  "number-input-in-range-error": "Введите целое положительное число в диапазоне:",
+
+  "date": "Дата",
+  "category": "Категория",
+  "amount": "Сумма",
+  "description": "Описание",
+  "income": "Доход",
+  "expense": "Расход",
+  "no-entries": "Записей нет.",
+  "no-incomes": "Доходов нет :(",
+  "no-expenses":"Расходов нет :)"
 }

@@ -4,3 +4,7 @@ class UserNotFoundException(Exception):
 
 class UsernameIsTakenException(Exception):
     pass
+
+
+class UserIncorrectDataException(Exception):
+    pass

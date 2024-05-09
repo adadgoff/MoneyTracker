@@ -1,8 +1,6 @@
 import os
 
-from app.database.config import ENTRY_DATABASE_PATH
-
-from app.database.config import DELIMITER, USER_DATABASE_PATH
+from app.database.config import ENTRY_DATABASE_PATH, USER_DATABASE_PATH, DELIMITER
 from app.entry.entry import Entry
 from app.user.user import User
 
